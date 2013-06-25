@@ -1,0 +1,44 @@
+body, html{
+	width:100%;
+	height:100%
+}
+
+.splash{
+	background: url('images/splash.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.images/splash.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/splash.jpg', sizingMethod='scale')";
+
+	width:100%;
+	height:100%;
+	background-color:#D6D6D6;
+	position:absolute;
+}
+
+#header{
+	background:#999999;
+	position:relative;
+}
+.logo{
+	min-width:25%;
+	min-height:25%;
+	position:absolute;
+	z-index:10;
+}	
+.logo img{
+	background-image:url(img/logo.gif);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	display:block;
+	min-height:140px;
+	min-width:25%;
+	max-width:300px;
+		max-height:300px;
+	text-indent:-9999px;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
